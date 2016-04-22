@@ -111,7 +111,11 @@ function findMovie(movies){
 - It should loop over all of the movies in the movieQueue, and return the string:
  "Here are the current movies: <value of movieQueue[0]>, <value of movieQueue[1]>, "
 ****************************************************/
-
+function listMovies(){
+    for (var i = 0; i < movieQueue.length; i++){
+        return ("Here are the current movies: " + movieQueue[0]+", "+ movieQueue[1]+ ", "  + movieQueue[2]+ ", " );
+    }
+}
  
 
  
